@@ -1,0 +1,70 @@
+BIT4138 - Advanced Cryptography
+PKI Security Incident Report
+The DigiNotar Certificate Authority Breach (2011)
+Week 8 Assignment
+
+================================================
+
+1. INTRODUCTION
+================================================
+Public Key Infrastructure (PKI) is the backbone of
+secure digital communication on the Internet. It relies
+on trusted Certificate Authorities (CAs) to issue,
+manage, and revoke digital certificates that verify
+the identity of websites and organizations. When a CA
+is compromised, the entire trust model of digital
+security is threatened. One of the most significant
+CA security incidents in history occurred in 2011
+when DigiNotar, a Dutch Certificate Authority, was
+successfully breached by malicious hackers. This report
+examines the organization involved, the cause of the
+breach, its impact on users worldwide, corrective
+actions taken, and the key lessons learned for PKI
+security.
+
+================================================
+2. ORGANIZATION INVOLVED
+================================================
+DigiNotar was a Dutch Certificate Authority and digital
+security company founded in 1998, headquartered in
+Beverwijk, Netherlands. It was a subsidiary of VASCO
+Data Security International. DigiNotar was authorized
+to issue SSL/TLS certificates and was trusted by all
+major web browsers and operating systems including
+Microsoft Windows, Mozilla Firefox, and Google Chrome.
+The company also operated as a CA for the Dutch
+government, issuing certificates used in official
+e-government services. Due to its trusted status,
+a compromise of DigiNotar meant that fraudulent
+certificates would be accepted as valid by virtually
+every internet user in the world.
+
+================================================
+3. CAUSE OF THE INCIDENT
+================================================
+In July 2011, an attacker known as "Comodohacker"
+successfully breached DigiNotar's internal network.
+Forensic investigation revealed multiple serious
+security failures:
+
+- Weak network security: Internal systems were poorly
+  segmented, allowing the attacker to move laterally
+  across the network after gaining initial access.
+
+- Outdated software: Servers used outdated and
+  unpatched software, leaving known vulnerabilities
+  unaddressed.
+
+- No intrusion detection: DigiNotar lacked adequate
+  monitoring systems, meaning the breach went
+  undetected for weeks.
+
+- Poor access controls: The attacker accessed
+  certificate-issuing systems without strong
+  authentication measures.
+
+- Delayed disclosure: After discovering the breach,
+  DigiNotar failed to promptly notify the public,
+  browsers, or government authorities.
+
+As a result,
